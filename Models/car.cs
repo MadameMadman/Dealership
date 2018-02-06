@@ -6,22 +6,28 @@ namespace Dealership.Models
 {
   public class Car
   {
-    private string _description;
+    private string _model;
     private string _miles;
+    private string _description;
     private static List<Car> _instances = new List<Car> {};
 
-    public Car (string description, string miles)
+    public Car (string model, string description, string miles)
     {
-      _description = description;
+      _model = model;
       _miles = miles;
+      _description = description;
     }
-    public string GetDescription()
+    public string GetModel()
     {
-      return _description;
+      return _model;
     }
     public string GetMiles()
     {
       return _miles;
+    }
+    public string GetDescription()
+    {
+      return _description;
     }
     public void SetDescription (string newDescription)
     {

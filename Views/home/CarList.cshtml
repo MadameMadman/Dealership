@@ -4,7 +4,7 @@
       <ul>
         @foreach(var car in Model)
         {
-          <li>@car.GetDescription()  @car.GetMiles()</li>
+          <li>@car.GetModel()  @car.GetMiles()  @car.GetDescription() </li>
         }
       </ul>
       <p><a href="/">Add another car</a></p>

@@ -22,8 +22,9 @@ namespace Dealership.Controllers
     public ActionResult CreateCar()
     {
       Car newCar = new Car (
-      Request.Form["description"],
-      Request.Form["miles"]
+      Request.Form["model"],
+      Request.Form["miles"],
+      Request.Form["description"]
       );
       newCar.Save();
       return View(newCar);
@@ -31,13 +32,12 @@ namespace Dealership.Controllers
     [HttpPost("/car/list")]
     public ActionResult CarList()
     {
-      System.Console.WriteLine(":)");
       Car newCar = new Car(
-        Request.Form["description"],
-        Request.Form["miles"]
+        Request.Form["model"],
+        Request.Form["miles"],
+        Request.Form["description"]
       );
       newCar.Save();
-      System.Console.WriteLine("after");
 
       List<Car> allCars = Car.GetAll();
       return View(allCars);
