@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/Dealership/bin/Debug/netcoreapp1.1/dealership.deps.json
+/Users/Guest/Desktop/Dealership/bin/Debug/netcoreapp1.1/dealership.runtimeconfig.json
+/Users/Guest/Desktop/Dealership/bin/Debug/netcoreapp1.1/dealership.runtimeconfig.dev.json
+/Users/Guest/Desktop/Dealership/obj/Debug/netcoreapp1.1/dealership.AssemblyInfo.cs
+/Users/Guest/Desktop/Dealership/bin/Debug/netcoreapp1.1/dealership.dll
+/Users/Guest/Desktop/Dealership/bin/Debug/netcoreapp1.1/dealership.pdb
+/Users/Guest/Desktop/Dealership/obj/Debug/netcoreapp1.1/dealership.dll
+/Users/Guest/Desktop/Dealership/obj/Debug/netcoreapp1.1/dealership.pdb
